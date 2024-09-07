@@ -37,7 +37,7 @@ public class ikea {
 		Thread.sleep(2000);
 		browser.findElement(By.id("discountCode")).sendKeys("12345678U521458");
 		browser.findElement(By.xpath("//span[text()='Apply discount']")).click(); 
-		
+		system.out.println("Test Git Fetch");
 
 	}
 
